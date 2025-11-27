@@ -1,5 +1,4 @@
 *.lock
 *.venv
 *.vscode
-pyproject.toml
 __pycache__
