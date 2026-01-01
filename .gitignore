@@ -1,4 +1,6 @@
 *.lock
 *.venv
 *.vscode
+
 __pycache__
+models
