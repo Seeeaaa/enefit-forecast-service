@@ -1,6 +1,6 @@
-*.lock
-*.venv
-*.vscode
+.venv
+.vscode
 
 __pycache__
 models
+.mypy_cache
