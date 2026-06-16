@@ -1,6 +1,13 @@
-.venv
-.vscode
+.venv/
+.vscode/
+__pycache__/
+*.egg-info/
 
-__pycache__
-models
-.mypy_cache
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+src/models/
+src/data/
+
+*.lock

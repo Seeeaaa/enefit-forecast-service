@@ -1,0 +1,27 @@
+[project]
+name = "enefit-forecast-service"
+version = "0.1.0"
+description = "Enefit Energy Forecasting API"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0.0",
+    "fastparquet>=2024.0.0",
+    "plotly>=5.20.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.7.0",
+    "xgboost>=2.0.0",
+    "streamlit>=1.35.0",
+    "requests>=2.31.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
